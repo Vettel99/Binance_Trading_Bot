@@ -50,7 +50,6 @@ To place a MARKET BUY order for a specific quantity:
 
 ```
 python cli.py --symbol BTCUSDT --side BUY --type MARKET --qty 0.002
-
 ```
 
 ### 2. Limit Order Example
@@ -59,7 +58,6 @@ To place a LIMIT SELL order, you must provide a price:
 
 ```
 python cli.py --symbol BTCUSDT --side SELL --type LIMIT --qty 0.001 --price 95000.00
-
 ```
 
 ### 3. Interactive Mode (Enhanced CLI UX)
@@ -68,7 +66,6 @@ If arguments are omitted, the bot launches an interactive menu for user input:
 
 ```
 python cli.py
-
 ```
 
 ----------
