@@ -14,7 +14,6 @@ Follow these instructions to configure and run the bot locally:
     ```
     git clone <repository-url>
     cd trading_bot
-    
     ```
     
 2.  **Create a Virtual Environment**
@@ -27,7 +26,6 @@ Follow these instructions to configure and run the bot locally:
     venv\Scripts\activate
     # Activate on macOS/Linux:
     source venv/bin/activate
-    
     ```
     
 3.  **Install Dependencies** The project requires `python-binance`, `rich`, and `python-dotenv`.
@@ -36,7 +34,6 @@ Follow these instructions to configure and run the bot locally:
     
     ```
     pip install -r requirements.txt
-    
     ```
     
 4.  **Configure Environment Variables** Create a `.env` file in the root directory and add your Binance Futures Testnet credentials:
@@ -46,7 +43,6 @@ Follow these instructions to configure and run the bot locally:
     ```
     BINANCE_API_KEY=your_testnet_api_key
     BINANCE_API_SECRET=your_testnet_api_secret
-    
     ```
     
 
