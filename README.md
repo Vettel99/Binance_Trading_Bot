@@ -9,16 +9,12 @@ Follow these instructions to configure and run the bot locally:
 
 1.  **Clone the Repository**
     
-    Bash
-    
     ```
     git clone <repository-url>
     cd trading_bot
     ```
     
 2.  **Create a Virtual Environment**
-    
-    Bash
     
     ```
     python -m venv venv
@@ -30,15 +26,11 @@ Follow these instructions to configure and run the bot locally:
     
 3.  **Install Dependencies** The project requires `python-binance`, `rich`, and `python-dotenv`.
     
-    Bash
-    
     ```
     pip install -r requirements.txt
     ```
     
 4.  **Configure Environment Variables** Create a `.env` file in the root directory and add your Binance Futures Testnet credentials:
-    
-    Code snippet
     
     ```
     BINANCE_API_KEY=your_testnet_api_key
@@ -56,8 +48,6 @@ The bot accepts user input via CLI arguments or an interactive prompt system.
 
 To place a MARKET BUY order for a specific quantity:
 
-Bash
-
 ```
 python cli.py --symbol BTCUSDT --side BUY --type MARKET --qty 0.002
 
@@ -67,8 +57,6 @@ python cli.py --symbol BTCUSDT --side BUY --type MARKET --qty 0.002
 
 To place a LIMIT SELL order, you must provide a price:
 
-Bash
-
 ```
 python cli.py --symbol BTCUSDT --side SELL --type LIMIT --qty 0.001 --price 95000.00
 
@@ -77,8 +65,6 @@ python cli.py --symbol BTCUSDT --side SELL --type LIMIT --qty 0.001 --price 9500
 ### 3. Interactive Mode (Enhanced CLI UX)
 
 If arguments are omitted, the bot launches an interactive menu for user input:
-
-Bash
 
 ```
 python cli.py
