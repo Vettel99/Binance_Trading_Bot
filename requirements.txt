@@ -1,0 +1,4 @@
+python-dotenv==1.0.1
+rich==13.7.1
+python-binance==1.0.19
+cryptography>=3.4.0
